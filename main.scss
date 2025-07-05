@@ -1,0 +1,26 @@
+:root {
+  --blue-200: hsl(193, 38%, 86%);
+  --green-300: hsl(150, 100%, 66%);
+  --blue-600: hsl(217, 19%, 38%);
+  --blue-900: hsl(217, 19%, 24%);
+  --blue-950: hsl(218, 23%, 16%);
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--blue-950);
+}
+
+.dice{
+    &:hover{
+        box-shadow: 0 -1px 35px 7px var(--green-300);
+    }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
